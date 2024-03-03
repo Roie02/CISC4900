@@ -1,3 +1,3 @@
 # CISC4900
 Repository for CISC 4900 project!
-Will be making a website for cars.
+A website called Revify will be made to display some of the most exotic cars out there. The website will provide information about each car along with images.
