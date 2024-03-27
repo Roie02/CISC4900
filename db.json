@@ -1,0 +1,136 @@
+{
+  "Cars": [
+    {
+      "id": 1,
+      "make": "Audi",
+      "model": "R8 V10 quatro",
+      "year": 2023,
+      "image": [
+        "https://www.autotrader.com/wp-content/uploads/2023/02/2023-audi-r8-coupe-right-side.jpg",
+        "https://cdn.carbuzz.com/gallery-images/2023-audi-r8-coupe-front-view-driving-carbuzz-497212-1600.jpg",
+        "https://cdn.carbuzz.com/gallery-images/2023-audi-r8-coupe-front-view-driving-carbuzz-497214-1600.jpg"
+      ],
+      "cost": "209,700",
+      "hp": 602,
+      "info": "Few supercars actually get driven daily, but the 2023 Audi R8 seems designed for such a task. It offers a reasonably easy-going ride along with its breakneck acceleration. The R8 shares its underpinnings and its powertrain—a mighty V-10 and seven-speed automatic—with the wild Lamborghini Huracán. The Audi is less hardcore than the Lambo, though, less intense on a twisty road or racetrack. What the R8 offers instead is a level of refinement that’s more in line with the rest of the Audi lineup. Its snug, two-seat cabin is lined with high-end materials and features a minimalist design that forgoes the usual center-mounted infotainment display in favor of a digital gauge display that serves both purposes. The interior is comfortable for both driver and passenger, and the R8 would make a fine touring car if it weren't for a puny cargo area that fits only one carry-on suitcase. If this particular cross-section of performance and luxury appeals to you, now’s the time to act, as this is the final year for Audi’s V-10–powered showpiece."
+    },
+    {
+      "id": 2,
+      "make": "Bugatti",
+      "model": "W16 Mistral roadster",
+      "year": 2024,
+      "image": [
+        "https://4kwallpapers.com/images/wallpapers/bugatti-w16-mistral-3840x2160-9991.jpg",
+        "https://d2o6sx2cv43e7k.cloudfront.net/assets/images/gallery_2.jpeg",
+        "https://www.cnet.com/a/img/resize/2f9262d0a90e8ba770004d8e9fe90ac52ac31169/hub/2022/08/12/d2a1ad4e-eaf4-4262-9e4b-3182dfad573b/bugatti-w16-mistral-roadster-111.jpg?auto=webp&fit=crop&height=675&width=1200"
+      ],
+      "cost": "5,000,000",
+      "hp": 1578,
+      "info": "The Bugatti quad-turbo W-16 is an engineering masterpiece and a symbol of pure excess, but the end of the incredible engine is nigh. When Volkswagen Group ceded control of Bugatti to Croatian EV maker Rimac, it was a clear acknowledgment that the ultra-luxury brand's future will be fully electric. As the last model to feature the W-16, the new Bugatti Mistral—freshly unveiled at Pebble Beach during Monterey Car Week—is the car that signals that transition. Although it carries a different name, the Mistral also completes the life cycle of the Bugatti Chiron, as it's essentially a convertible version of that hypercar, which hasn’t been offered until now. Only 99 Mistrals will be produced and priced at $5 million apiece, based on the current U.S. exchange rate. Bugatti says they're already sold out ahead of deliveries that are slated to start in 2024. The engine is the existing 8.0-liter W-16, which features four turbochargers and produces 1578 horsepower. That's the same output as the Chiron Super Sport 300+ that set an outright production-car speed record in 2019. Power reaches the road through a seven-speed dual-clutch transmission and all-wheel drive. Bugatti hasn't released detailed performance claims for the Mistral but did say the car will have a top speed of at least 260 mph. We’re also told the company wants the Mistral to become the fastest roadster in the world. However, that would require officially beating the 254-mph record set by the Veyron Grand Sport Vitesse in 2013. "
+    },
+    {
+      "id": 3,
+      "make": "Tesla",
+      "model": "Model S Plaid",
+      "year": 2023,
+      "image": [
+        "https://media.evo.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1623418450/evo/2021/06/Tesla%20Model%20S%20Plaid%20front%20track.jpg",
+        "https://cdn.motor1.com/images/mgl/Q12M1/s1/2021-tesla-model-s-plaid.jpg",
+        "https://www.autotrader.com/wp-content/uploads/2023/01/2023-tesla-model-s-left-side.jpg"
+      ],
+      "cost": "112,000",
+      "hp": 1020,
+      "info": "The car that kickstarted the EV revolution is starting to show its age. While the 2023 Tesla Model S falls behind newly developed rivals with more over-the-top features and longer driving ranges, the sedan-like hatchback continues to be competitive. After all, the Model S offers up to 405 miles of range on a single charge. Plus, the 1020-hp tri-motor Plaid performance model leaps to 60 mph in just 2.1 seconds, which is as quick as a multimillion-dollar hypercar. However, cutting-edge competitors such as the BMW i7 and Lucid Air have taken much of the Tesla's spotlight. The Model S also has a six-figure price tag that just doesn't jibe with its mid-luxe interior, especially compared with the Lucid and BMW's deluxe cabins. We think the Tesla's odd yoke-style steering wheel compromises the driving experience, too, but at least a regular wheel is once again available. Still, the 2023 Model S remains the brand's flagship, offering access to its most up-to-date software and Tesla's advanced—albeit somewhat dubious—AutoPilot hands-free driving mode."
+    },
+    {
+      "id": 4,
+      "make": "Acura",
+      "model": "NSX Type S",
+      "year": 2022,
+      "image": [
+        "https://hips.hearstapps.com/hmg-prod/images/2022-acura-nsx-type-s-1-1628792637.jpg?crop=0.768xw:0.871xh;0.0593xw,0&resize=640:*",
+        "https://hips.hearstapps.com/hmg-prod/images/2022-acura-nsx-type-s-5-1628792635.jpg?crop=0.881xw:0.809xh;0.119xw,0&resize=980:*",
+        "https://hips.hearstapps.com/hmg-prod/images/2022-acura-nsx-type-s-018-1628777583.jpg?crop=0.766xw:0.573xh;0.0817xw,0.153xh&resize=1200:*"
+      ],
+      "cost": "170,000",
+      "hp": 600,
+      "info": "The NSX has struggled to find its way. To close its run, the final 350 cars built will be the new 600-hp Type S edition, which retains everything that was very good about the mid-engine hybrid sports car and adds elements that worked from the GT3 program. Thanks to the race car's turbochargers pumping up to 16.1 psi of boost (up 0.9 over the standard car), new injectors, and 15 percent more efficient intercoolers, the double-overhead-cam V-6 benefits from a 20-hp bump and 36 more pound-feet of torque. Acura has also reprogrammed the adaptive magnetorheological dampers and electrically assisted power steering, somehow cut the nine-speed dual-clutch auto's shift times in half, and fitted new Honda-spec Pirelli P Zero PZ4 tires, although the skidpad grip chimed in at 0.99 g, a few hundredths lower than we expected. Despite the added power, the Type S ran the same 2.9-second time to 60 as the last NSX we tested, yet it clipped a tenth to post an 11.0-second quarter-mile at 126 mph. "
+    },
+    {
+      "id": 5,
+      "make": "Lamborghini",
+      "model": "Urus Performante",
+      "year": 2023,
+      "image": [
+        "https://www.insidehook.com/wp-content/uploads/2023/03/lamborghini-urus-performante-review.jpg?fit=1200%2C800",
+        "https://i.gaw.to/content/photos/53/93/539399-lamborghini-urus-performante-une-suite-logique-pour-l-explosif-vus-italien.jpeg",
+        "https://www.autobics.com/wp-content/uploads/2022/08/2023-Lamborghini-Urus-Performante-Yellow-Rear-Quarter-View.jpg"
+      ],
+      "cost": "264,671",
+      "hp": 657,
+      "info": "Like its Huracán Performante namesake, the new Urus variant has shed weight. A carbon-fiber hood, lighter wheels, and a titanium exhaust are part of a package of revisions that have reduced mass by a claimed 104 pounds. Given that the last Urus we tested weighed 5314 pounds, the Performante is still no lightweight. Aerodynamic changes courtesy of the revised front end and a new liftgate spoiler manage the twofer of reducing aerodynamic lift by up to 38 percent while lowering drag. The hugeness of the Performante's off-the-line acceleration remains the most visceral part of the driving experience. There is something otherworldly about a vehicle so big that can go so fast, devouring gear ratios in a storm of sound and fury. More impressive is the Performante's ability to corral its huge urge in the unlikely environment of a racetrack. The vast carbon-ceramic brakes—17.3-inch discs gripped by 10-piston calipers up front—are unchanged from the standard car, but cooling has improved. They scrub off speed without complaint even during multilap stints, radiating the heat of an opened pizza oven once the car returned to the pit lane. And the optional Trofeo R tires generated huge grip and delivered a level of handling precision amazing in something of this size. "
+    },
+    {
+      "id": 6,
+      "make": "Porsche",
+      "model": "911 GT3 RS",
+      "image": [
+        "https://www.thedrive.com/uploads/2023/02/20/GT3RS_TRIBUTE_TO_CARRERA_RS_005_DSC03236_hero.jpg?auto=webp",
+        "https://www.cnet.com/a/img/resize/ef5d29255a918d8173edb5e062d67e6a38ba3db2/hub/2022/08/19/325c58ec-3f00-44c6-b886-661b74599083/ogi1-porsche-911-gt3-rs-white-green-002.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "https://images.pistonheads.com/nimg/46089/blobid0.jpg"
+      ],
+      "cost": "223,000",
+      "hp": 518,
+      "info": "Simply put, the 2023 Porsche 911 GT3 and the all-out track-attack GT3 RS are utterly transcendent, blending everything we love about the standard 911 with otherworldly performance, uncompromised driving enjoyment, and hot-lap capability. A naturally aspirated 4.0-liter flat-six engine makes demonic sounds as it howls up to its 9000 rpm redline, producing 502 horsepower along the way in the GT3 and GT3 Touring. That same engine is twisted to 518 horsepower in the new GT3 RS, but it's that model's wild race-car aerodynamic elements—ideas cribbed from GT and Formula 1 race cars—that comprise its major engineering advancements. A six-speed manual is standard in GT3 models but we've proven the optional seven-speed PDK automatic is quicker, as it shifts quicker than a human and seems to be linked to the driver's cerebral cortex. The GT3 RS comes only with the PDK gearbox. While the GT3 and GT3 Touring models are designed to thrill on the world's most challenging race courses, they're nearly as supple-riding and easy to live with as the regular 911 when driven on city streets. It's this dual-purpose nature that makes the GT3 one of our favorite sports cars and why it easily earns a place on the highest pedestal of automotive icons. As for the GT3 RS, it's as serious about lap times as a 911 can get and still be licensed. We can't wait to drive it to see if it's too radical a car for anything but track duty."
+    },
+    {
+      "id": 7,
+      "make": "Cadillac",
+      "model": "Escalade V",
+      "year": 2023,
+      "image": [
+        "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-escalade-v-102-1660134617.jpg?crop=0.817xw:0.612xh;0.183xw,0.345xh&resize=1200:*",
+        "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-escalade-v-369-1660134672.jpg?resize=980:*",
+        "https://www.cadillac.com/content/dam/cadillac/na/us/english/index/vehicles/2023/crossover-suvs/escalade/01-images/large/my23-escalade-design-intro-v3.jpg?imwidth=960"
+      ],
+      "cost": "150,000",
+      "hp": 682,
+      "info": "Cadillac has done to the Escalade something it should have done nearly two decades ago: give its full-size SUV the V treatment. Admittedly, the ethos of the American luxury brand's performance arm has become somewhat muddled in recent years, what with the V lineup now split between tamer V-badged models and full-on V Blackwing high-performance variants, such as the 10Best-winning CT4-V Blackwing and CT5-V Blackwing. But there's nothing confusing about the new 2023 Escalade-V. Its mission is one of power and prestige. We certainly won't call the Escalade-V tame, as it packs a 682-hp wallop from a supercharged 6.2-liter V-8—a hand-built mill that's closely related to the 668-hp supercharged V-8 found in the CT5-V Blackwing, though the engine in the SUV trades the sedan's 1.7-liter Roots-type blower for a larger 2.7-liter unit. With the help of standard all-wheel drive and a 10-speed automatic transmission, this blown V-8 propels the standard-wheelbase Escalade-V to 60 mph in 4.3 seconds—1.7 seconds quicker than a 420-hp 2022 Escalade Sport Platinum we tested."
+    },
+    {
+      "id": 8,
+      "make": "Lamborghini",
+      "model": "Aventador LP 780-4 Ultimate",
+      "year": 2022,
+      "image": [
+        "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/ultimae_roadster/aven_ulti_rds_og.jpg",
+        "https://cdn.motor1.com/images/mgl/eQEl6/s1/4x3/lamborghini-aventador-lp-780-4-ultimae.webp",
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/588390-1625663609.jpg"
+      ],
+      "cost": "507,353",
+      "hp": 780,
+      "info": "It doesn't matter that this thing has been around since 2011. Most of the world has never seen an Aventador in alloy and carbon-fiber reality. And in the context of most ordinary people's ordinary lives, it's radically extraordinary. So, the essential preposterousness of the Aventador is intact. What the Ultimae brings is a few new visuals tics, some interior design twists, and some additional power from the no-damn-turbos, no-hybrid-kludges 6.5-liter V-12. As the 780 part of its name implies, it's now rated 780 CV (metric Euro equines), which translates to 769 hp (American horsies). When the all-wheel-drive Aventador entered production, the same basic engine was rated at 700 CV (691 horsepower), so the new rating represents a more than a 10 percent increase in output. That's about 1 percent per year of the car's life. The Aventador Ultimae looks like the car of the future we all drew as middle schoolers sentenced to detention. But it is so much a car of the recently passed past. Still, it's awesome when it starts up and that V-12 settles into its menacing idle. The start button is under a silly red cover and the entire starting sequence unspools like the overture to La traviata. It's all so pretentious, and so what?"
+    },
+    {
+      "id": 9,
+      "make": "Chevrolet",
+      "model": "Corvette Z06",
+      "year": 2023,
+      "image": [
+        "https://media.architecturaldigest.com/photos/61785a7e983eba1f38a08f5e/2:1/w_1999,h_999,c_limit/2023-Chevrolet-Corvette-Z06-003.jpg",
+        "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2023/performance/corvette-z06/mov/01-images/2023-z06-z07-performance-package-01.jpg?imwidth=960",
+        "https://www.motortrend.com/uploads/2023/01/2023-Chevrolet-Corvette-Z06-16.jpg"
+      ],
+      "cost": "110,000",
+      "hp": 670,
+      "info": "The 2023 Chevy Corvette Z06 elevates the iconic nameplate into territory occupied by exotics from Ferrari and Lamborghini. With the engine now located behind the driver, it looks unlike any Z06 seen before. Not only is it considerably wider than the regular Corvette Stingray, but it also boasts bigger air intakes and a unique rear wing. Thanks to a flat-plane crankshaft, the new Z06's naturally aspirated 5.5-liter V-8 doesn't sound like any Vette that's come before, and it blasted the car to 60 mph in just 2.6 seconds at our test track. While it inherits the best amenities and technology from the Stingray, its performance and handling have been heightened and sharpened. Chevy switched to a mid-engine layout to make the C8 Corvette a supercar that more folks can afford, and the 2023 Corvette Z06 promises to embarrass more than a few people driving insanely expensive supercars when they meet at a racetrack. We were so impressed by the z06 that we named it to our 2023 10Best cars list alongside the Stingray. The new Corvette Z06 receives a special engine that makes it sound similar to the supercars it's trying to dethrone. Its naturally aspirated 5.5-liter V-8 features a flat-plane crank and revs to 8500 rpm. The engine produces 670 horsepower and has a Ferrari-like howl that'll send shivers down the spine of bystanders. The unconventional V-8 hooks up to an eight-speed dual-clutch automatic transmission and rear-wheel drive. Performance is explosive, and at our test track, the Z06 blasted to 60 mph in just 2.6 seconds and sailed through the quarter-mile mark in 10.5 seconds at 131 mph. The convertible needed just 0.1 second longer to reach 60 mph in our testing. "
+    }
+  ],
+  "users": [
+    {
+      "username": "Roie",
+      "password": "eihwbf",
+      "id": 1
+    }
+  ]
+}

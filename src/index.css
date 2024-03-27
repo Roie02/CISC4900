@@ -1,3 +1,80 @@
-.test {
-  color: red;
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  background-color: rgb(230, 227, 32);
+  color: rgb(33, 30, 30);
+  border: 1px solid rgb(230, 227, 32);
+  margin-top: 1px;
+  margin-right: 2px;
+  position: absolute;
+  top: 1em;
+  right: 1.5em;
+  width: 6em;
+  height: 2em;
+  cursor: pointer;
+  border-radius: 0.5em;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 100;
+  box-shadow: 21px 2px 48px -1px rgba(0, 0, 0, 0.9);
+}
+
+.innerNav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2e2c2c;
+}
+
+button.hamburger{
+  background-color: rgb(230, 227, 32);
+  z-index: 101;
+  position: fixed;
+  outline: 0;
+  border: none;
+  top: 18px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+nav .innerNav ul{
+  padding: 0;
+  position: relative;
+  top: 100px;
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav .innerNav li {
+  list-style-type: none;
+  line-height: 3;
+  padding: 0 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+nav .innerNav li a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  transition: .4s all ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav .innerNav li:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav .innerNav li:active{
+  scale: 0.9;
 }
