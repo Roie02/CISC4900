@@ -8,8 +8,11 @@ import './index.css'
 
 function App() {
 
-  const [user, setUser] = useState({user:"John"});
+  const [user, setUser] = useState({});
   
+  
+
+
   return (
     <Router>
     <div>

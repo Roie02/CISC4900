@@ -1,9 +1,9 @@
 button {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  background-color: rgb(230, 227, 31);
+  background-color: rgb(105,105,105);
   color: rgb(33, 30, 30);
-  border: 1px solid rgb(230, 227, 31);
+  border: 1px solid rgb(105,105,105);
   margin-top: 1px;
   margin-right: 2px;
   position: absolute;
@@ -35,7 +35,7 @@ nav{
 }
 
 button.hamburger{
-  background-color: rgb(230, 227, 31);
+  background-color: rgb(105,105,105);
   z-index: 101;
   position: fixed;
   outline: 0;
@@ -77,4 +77,21 @@ nav .innerNav li:hover{
 
 nav .innerNav li:active{
   scale: 0.9;
+}
+
+body {
+  background: url(https://images.hdqwalls.com/wallpapers/lamborghini-huracan-performante-front-look-lw.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6em;
+  font-weight: 800;
+  color: white; 
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  vertical-align: middle;
+  line-height: 4;
 }
