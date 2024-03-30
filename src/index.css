@@ -68,7 +68,6 @@ nav .innerNav li a{
   text-decoration: none;
   color: white;
   transition: .4s all ease-in-out;
-  font-family: 'Montserrat', sans-serif;
 }
 
 nav .innerNav li:hover{
@@ -94,4 +93,59 @@ h1 {
   text-transform: uppercase; 
   vertical-align: middle;
   line-height: 4;
+  user-select: none;
+}
+
+#login-div {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 70vh; /* Set container height to full viewport height */
+  margin-left: 80px; /* Add a small margin to the left */
+}
+
+.login-form {
+  width: 20em;
+  line-height: 3em;
+}
+
+.login-form label {
+  line-height: 2em;
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.login-form input {
+  width: 16em;
+  height: 2em;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.login-form input[type=submit] {
+  width: 17em;
+  height: 2.2em;
+}
+
+
+.login-form label {
+  line-height: 2em;
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.login-form input {
+  width: 16em;
+  height: 2em;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.login-form input[type=submit] {
+  width: 17em;
+  height: 2.2em;
 }
