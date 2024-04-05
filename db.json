@@ -48,7 +48,7 @@
       "model": "NSX Type S",
       "year": 2022,
       "image": [
-        "https://hips.hearstapps.com/hmg-prod/images/2022-acura-nsx-type-s-1-1628792637.jpg?crop=0.768xw:0.871xh;0.0593xw,0&resize=640:*",
+        "https://hips.hearstapps.com/hmg-prod/images/2022-acura-nsx-type-s-1-1628792637.jpg?crop=0.768xw:0.700xh;0.0593xw,0&resize=640:*",
         "https://hips.hearstapps.com/hmg-prod/images/2022-acura-nsx-type-s-5-1628792635.jpg?crop=0.881xw:0.809xh;0.119xw,0&resize=980:*",
         "https://hips.hearstapps.com/hmg-prod/images/2022-acura-nsx-type-s-018-1628777583.jpg?crop=0.766xw:0.573xh;0.0817xw,0.153xh&resize=1200:*"
       ],
@@ -74,6 +74,7 @@
       "id": 6,
       "make": "Porsche",
       "model": "911 GT3 RS",
+      "year": 2023,
       "image": [
         "https://www.thedrive.com/uploads/2023/02/20/GT3RS_TRIBUTE_TO_CARRERA_RS_005_DSC03236_hero.jpg?auto=webp",
         "https://www.cnet.com/a/img/resize/ef5d29255a918d8173edb5e062d67e6a38ba3db2/hub/2022/08/19/325c58ec-3f00-44c6-b886-661b74599083/ogi1-porsche-911-gt3-rs-white-green-002.jpg?auto=webp&fit=crop&height=675&width=1200",

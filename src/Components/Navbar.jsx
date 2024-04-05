@@ -40,16 +40,16 @@ function Navbar(){
         <motion.div className ="innerNav">
           <ul>
             <li>
-              <NavLink to = '/' >Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to = '/' >Specs</NavLink>
+              <NavLink to="specs">Specs</NavLink>
             </li>
             <li>
-              <NavLink to = '/' >Track</NavLink>
+              <NavLink to='/'>Track</NavLink>
             </li>
             <li>
-              <NavLink to = '/' >Add Car</NavLink>
+              <NavLink to='/'>Add Car</NavLink>
             </li>
           </ul>
         </motion.div>

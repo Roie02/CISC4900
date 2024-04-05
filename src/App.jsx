@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-route
 import Homepage from './Components/Homepage'
 import Navbar from './Components/Navbar'
 import Login from './Components/Login'
+import Specs from "./Components/Specs/Specs";
 import './index.css'
-
-
 
 function App() {
   const navigate = useNavigate();
@@ -13,17 +12,31 @@ function App() {
     username: '',
     password: ''
   });
+
   const [user, setUser] = useState({});
+  const [cars, setCars] = useState([]);
+
 
   useEffect(() => {
-    fetch('http://localhost:5173/db.json')
+    fetch('http://localhost:5179/db.json')
     .then(resp => resp.json())
     .then(data => setUser(data))
   }, []);
 
+
+  useEffect(() => {
+    fetch('http://localhost:5179/db.json')
+    .then(resp => resp.json())
+    .then(data => {
+      setUser(data);
+      setCars(data.Cars); 
+    });
+  }, []);
+
+
   function handleSubmit(e) {
     e.preventDefault();
-    fetch('http://localhost:5173/db.json', {
+    fetch('http://localhost:5179/db.json', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -44,14 +57,15 @@ function App() {
       }
     });
   }
-  
+
   return (
 
       <div>
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage user={user} setUser={ setUser } />} />
-          <Route path="/login" element={<Login form={form} setForm={setForm} handleSubmit={handleSubmit} />} />
+          <Route path="login" element={<Login form={form} setForm={setForm} handleSubmit={handleSubmit} />} />
+          <Route path="specs" element= {<Specs cars={ cars } />} /> 
         </Routes>
       </div>
 
