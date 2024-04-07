@@ -18,14 +18,14 @@ function App() {
 
 
   useEffect(() => {
-    fetch('http://localhost:5179/db.json')
+    fetch('http://localhost:5173/db.json')
     .then(resp => resp.json())
     .then(data => setUser(data))
   }, []);
 
 
   useEffect(() => {
-    fetch('http://localhost:5179/db.json')
+    fetch('http://localhost:5173/db.json')
     .then(resp => resp.json())
     .then(data => {
       setUser(data);
@@ -36,7 +36,7 @@ function App() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch('http://localhost:5179/db.json', {
+    fetch('http://localhost:5173/db.json', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -64,8 +64,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage user={user} setUser={ setUser } />} />
-          <Route path="login" element={<Login form={form} setForm={setForm} handleSubmit={handleSubmit} />} />
-          <Route path="specs" element= {<Specs cars={ cars } />} /> 
+          <Route path="/login" element={<Login form={form} setForm={setForm} handleSubmit={handleSubmit} />} />
+          <Route path="/specs" element= {<Specs cars={ cars } />} /> 
         </Routes>
       </div>
 

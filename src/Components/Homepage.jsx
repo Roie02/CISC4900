@@ -11,6 +11,7 @@ function Homepage({user, setUser}) {
   
 return (
   <div> 
+    
     {user.username ? <button onClick={handleLogoutClick}>
       Log Out
     </button>
