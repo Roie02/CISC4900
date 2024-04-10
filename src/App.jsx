@@ -4,6 +4,7 @@ import Homepage from './Components/Homepage'
 import Navbar from './Components/Navbar'
 import Login from './Components/Login'
 import Specs from "./Components/Specs/Specs";
+import CarPage from "./Components/Specs/CarPage";
 import './index.css'
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
           <Route path="/" element={<Homepage user={user} setUser={ setUser } />} />
           <Route path="/login" element={<Login form={form} setForm={setForm} handleSubmit={handleSubmit} />} />
           <Route path="/specs" element= {<Specs cars={ cars } />} /> 
+          <Route path="/specs/:id" element={ <CarPage /> } />
         </Routes>
       </div>
 
