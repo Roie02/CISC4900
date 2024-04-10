@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion'
 import MenuIcon from '@mui/icons-material/Menu';
@@ -17,6 +17,10 @@ const variants = {
 
 function Navbar(){
   const [clickBurger, setClickBurger] = useState(false);
+
+  const closeNavbar = () => {
+    setClickBurger(false);
+  }
 
   return (
     <div>
@@ -40,25 +44,22 @@ function Navbar(){
         <motion.div className ="innerNav">
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/" onClick={closeNavbar}>Home</NavLink>
             </li>
             <li>
-              <NavLink to="specs">Specs</NavLink>
+              <NavLink to="specs" onClick={closeNavbar}>Specs</NavLink>
             </li>
             <li>
-              <NavLink to='/'>Track</NavLink>
+              <NavLink to='/' onClick={closeNavbar}>Track</NavLink>
             </li>
             <li>
-              <NavLink to='/'>Add Car</NavLink>
+              <NavLink to='/' onClick={closeNavbar}>Add Car</NavLink>
             </li>
           </ul>
         </motion.div>
       </motion.nav>
-
-
     </div>
   )
-
 }
 
 export default Navbar
