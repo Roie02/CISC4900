@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar'
 import Login from './Components/Login'
 import Specs from "./Components/Specs/Specs";
 import CarPage from "./Components/Specs/CarPage";
+import CompareTrack from './Components/CompareTrack';
 import './index.css'
 
 function App() {
@@ -59,15 +60,21 @@ function App() {
     });
   }
 
+  function handleLogoutClick() {
+    setUser({}); 
+    navigate('/'); 
+  }
+
   return (
 
       <div>
-        <Navbar />
+      {user.username && <Navbar />}       
         <Routes>
           <Route path="/" element={<Homepage user={user} setUser={ setUser } />} />
           <Route path="/login" element={<Login form={form} setForm={setForm} handleSubmit={handleSubmit} />} />
           <Route path="/specs" element= {<Specs cars={ cars } />} /> 
           <Route path="/specs/:id" element={ <CarPage /> } />
+          <Route path="/compare-track" element= {<CompareTrack cars={cars}/>} />
         </Routes>
       </div>
 

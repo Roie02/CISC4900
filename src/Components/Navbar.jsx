@@ -50,7 +50,7 @@ function Navbar(){
               <NavLink to="specs" onClick={closeNavbar}>Specs</NavLink>
             </li>
             <li>
-              <NavLink to='/' onClick={closeNavbar}>Track</NavLink>
+              <NavLink to='/compare-track' onClick={closeNavbar}>Track</NavLink>
             </li>
             <li>
               <NavLink to='/' onClick={closeNavbar}>Add Car</NavLink>
