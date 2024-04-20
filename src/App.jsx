@@ -6,6 +6,7 @@ import Login from './Components/Login'
 import Specs from "./Components/Specs/Specs";
 import CarPage from "./Components/Specs/CarPage";
 import CompareTrack from './Components/CompareTrack';
+import CarForm from './Components/CarForm';
 import './index.css'
 
 function App() {
@@ -60,6 +61,12 @@ function App() {
     });
   }
 
+  function addCar(newObj) {
+    setCars([...cars, newObj]);
+    alert('Car added successfully!');
+    navigate('/add-car')
+  }
+
   function handleLogoutClick() {
     setUser({}); 
     navigate('/'); 
@@ -68,13 +75,14 @@ function App() {
   return (
 
       <div>
-      {user.username && <Navbar />}       
+        {user.username && <Navbar />}        
         <Routes>
           <Route path="/" element={<Homepage user={user} setUser={ setUser } />} />
           <Route path="/login" element={<Login form={form} setForm={setForm} handleSubmit={handleSubmit} />} />
           <Route path="/specs" element= {<Specs cars={ cars } />} /> 
           <Route path="/specs/:id" element={ <CarPage /> } />
           <Route path="/compare-track" element= {<CompareTrack cars={cars}/>} />
+          <Route path="/add-car" element={<CarForm addCar={addCar}/>}/>
         </Routes>
       </div>
 

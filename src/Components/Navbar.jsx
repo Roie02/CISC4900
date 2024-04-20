@@ -53,7 +53,7 @@ function Navbar(){
               <NavLink to='/compare-track' onClick={closeNavbar}>Track</NavLink>
             </li>
             <li>
-              <NavLink to='/' onClick={closeNavbar}>Add Car</NavLink>
+              <NavLink to='/add-car' onClick={closeNavbar}>Add Car</NavLink>
             </li>
           </ul>
         </motion.div>

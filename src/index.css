@@ -251,3 +251,35 @@ h1 {
   height: auto; 
 }
 
+.carForm{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carForm input{
+  margin: 2em;
+  width: 30em;
+  height: 3em;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.textArea{
+  position: relative;
+  left: 10em;
+  height: 10em;
+  width: 50em;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#submitCarBtn{
+  position:relative;
+  left: 25em;
+  width: 15em;
+}
