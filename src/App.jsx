@@ -26,7 +26,6 @@ function App() {
     .then(data => setUser(data))
   }, []);
 
-
   useEffect(() => {
     fetch('http://localhost:5173/db.json')
     .then(resp => resp.json())
@@ -35,7 +34,6 @@ function App() {
       setCars(data.Cars); 
     });
   }, []);
-
 
   function handleSubmit(e) {
     e.preventDefault();
